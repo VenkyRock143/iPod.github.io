@@ -1,0 +1,48 @@
+.display{
+    /* background-image: url("../static/AudioTapes.png"); */
+    background-size: cover;
+    background-position: center;
+    width: 270px;
+    height: 210px;
+    margin-top: 25px;
+    border: 1px solid black;
+    border-radius: 5px 5px 0px 0px;
+    padding:3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-background{
+    width: 270px;
+    height: 210px;
+    background-color: #E3F2FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.empty-text{
+    margin: 5px;
+    text-align: center;
+}
+#Games{
+    background-image: url('../static/gamesBack.jpg');
+    background-size: contain;
+    background-position: center;
+}
+#settings{
+    background-image: url('../static/settingsBack.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#Albums{
+    background-image: url('../static/music-album.png');
+    background-size: contain;
+    background-position: center;
+}
+#Artists{
+    background-image: url('../static/Artists.jpg');
+    background-size: cover;
+    
+}
